@@ -197,7 +197,7 @@ def adf_check(time_series):
         print(f"Fail to reject the null hypothesis. Time series has a unit root, indicating it is non-stationary.")
 
 
-def ARIMA_first(dfs, dfs_names, ibm_df, amazon_df, cac_df, sp500_df, microsoft_df, nasdaq_df):
+def ARIMA_first(dfs, dfs_names):
     for df in dfs:
         # Calculate moving averages (e.g., 10-day and 50-day)
         df['MA10'] = df['Close'].rolling(window=10).mean()
@@ -324,7 +324,7 @@ def ARIMA_first(dfs, dfs_names, ibm_df, amazon_df, cac_df, sp500_df, microsoft_d
 
         results_df = pd.DataFrame(results_list)
         return f'comparison for {name}: ', results_df
-
+#ARIMA_first(dfs,dfs_names) --> to get the plots
 
 def ARIMA_prediction(df):
         for perc in [0.9]: #we decided for 0.9
