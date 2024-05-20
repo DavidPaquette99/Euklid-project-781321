@@ -8,7 +8,7 @@ This code includes data cleaning and preprocessing, as well as the implementatio
 
 ## Method2: ANFIS classfier  
 This directory is self-sufficient and includes everything needed to perform feature engineering, training, and evaluations. It contains:
-- A notebook where the actual feature engineering, training, and evaluations are performed.
-- Preprocessed datasets.
-- A `utilities.py` file with custom calculations and plotting functions.
+- A notebook `anfis.ipynb` where the actual feature engineering, training, and evaluations are performed.
+- Preprocessed datasets, ending with `_ok.csv`.
+- A `utilities.py` file with custom calculations and plotting functions, written mainly to de-clutter the notebook.
 - The modified ANFIS modules `anfis.py`, `membership.py`, `experimental.py`, originally developed by James Power.
