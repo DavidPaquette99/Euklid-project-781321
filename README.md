@@ -1,2 +1,2 @@
 # Euklid-project-781321
-Machine Learning Course: Euclid project
+Machine Learning Course: Euklid project
