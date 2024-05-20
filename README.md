@@ -11,4 +11,4 @@ This directory is self-sufficient and includes everything needed to perform feat
 - A notebook where the actual feature engineering, training, and evaluations are performed.
 - Preprocessed datasets.
 - A `utilities.py` file with custom calculations and plotting functions.
-- The modified ANFIS modules, originally developed by James Power.
+- The modified ANFIS modules `anfis.py`, `membership.py`, `experimental.py`, originally developed by James Power.
